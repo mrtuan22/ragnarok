@@ -1,0 +1,20 @@
+#header {
+    padding: $pd-10;
+    background-color: $bg-nav;
+    .navHeader {
+        .navHeader__left {
+            display: flex;
+            .navHeader__left__logo {
+                margin: 0 auto;
+            }
+        }
+        .navHeader__right {
+            height: 100%;
+            justify-content: space-around;
+            align-items: center;
+            .navHeader__right__item {
+                @include textStyleMixin($fs-16, $fw-7, $white);
+            }
+        }
+    }
+}

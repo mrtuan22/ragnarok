@@ -1,0 +1,15 @@
+@import "./components/variable";
+@import "./mixin/textStyle";
+@import "./components/navBar";
+@import "./components/homePage";
+@import "./components/footer.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: $myFont;
+}

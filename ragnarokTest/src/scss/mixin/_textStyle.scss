@@ -1,0 +1,10 @@
+@mixin textStyleMixin($fs, $fw, $cl) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $cl;
+    transition: all 0.5s;
+    &:hover {
+        color: lighten($cl, 10%);
+        font-size: $fs + 2;
+    }
+}
